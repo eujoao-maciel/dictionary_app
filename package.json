@@ -1,0 +1,16 @@
+{
+  "name": "dictionary_app",
+  "version": "1.0.0",
+  "description": "A dictionary app built using JavaScript, HTML, CSS, and Tailwind CSS.",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev" : "npx tailwindcss -i ./src/input.css -o ./src/output.css --watch"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "tailwindcss": "^3.4.17"
+  }
+}
