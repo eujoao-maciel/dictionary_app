@@ -4,11 +4,34 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Dictionary App</title>
-    <link href="./output.css" rel="stylesheet">
     <link rel="stylesheet" href="./style.css">
-    <script src="./script.js"></script>
+    <script src="./script.js" defer></script>
+    <link href="./output.css" rel="stylesheet">
 </head>
-<body>
-    <h1 class=""></h1>
+<body class="w-screen h-screen">
+    
+    <header class="bg-indigo-500 flex items-center justify-center">
+        <section>
+            <h1 class="text-white font-bold text-4xl">Dictionary App</h1>
+        </section>
+    </header>
+
+    <main class="flex flex-col items-center gap-10">
+        <section>
+            <form class="mt-10 mb-10">
+                <input type="text" placeholder="Enter a word">
+                <button type="submit">Search</button>
+            </form>
+            
+            <div class="result">
+            </div>
+        </section>
+        
+    </main>
+
+    <footer class="bg-indigo-500 flex items-center justify-center">
+        <p class="text-white text-xl fon">Jotta E. 2024</p>
+    </footer>
+
 </body>
 </html>
